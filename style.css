@@ -1,7 +1,27 @@
+html, body{
+    height: 100%;
+}
+
 body{
     text-align: justify;
     background-color: #FFD1B5;
     color: #803209;
 }
 
+.avatar{
+    width: 950px;
+    border: 1px solid #803209;
+    box-shadow: 0 0 20px #803209;
+}
 
+.profile{
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0;
+    
+}
